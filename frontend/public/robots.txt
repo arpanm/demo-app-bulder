@@ -1,0 +1,45 @@
+# https://www.robotstxt.org/robotstxt.html
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://rupantar.com/sitemap.xml
+
+# Disallow admin and API routes
+Disallow: /admin/
+Disallow: /api/
+Disallow: /login
+Disallow: /register
+Disallow: /private/
+Disallow: /user/
+Disallow: /account/
+
+# Prevent crawling of duplicate content
+Disallow: /*?*
+Disallow: /*?
+Disallow: /*&
+
+# Prevent crawling of non-essential resources
+Disallow: /*.js$
+Disallow: /*.css$
+Disallow: /*.png$
+Disallow: /*.jpg$
+Disallow: /*.gif$
+Disallow: /*.ico$
+Disallow: /*.svg$
+
+# Allow crawling of essential resources
+Allow: /*.js$
+Allow: /*.css$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.gif$
+Allow: /*.ico$
+Allow: /*.svg$
+
+# Crawl-delay for all bots
+Crawl-delay: 10
+
+# Host
+Host: https://rupantar.com

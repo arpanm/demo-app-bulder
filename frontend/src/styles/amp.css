@@ -1,0 +1,62 @@
+.amp-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #000;
+}
+
+.amp-content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.amp-content body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+
+.amp-content amp-story {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+}
+
+.amp-content amp-story-page {
+  background-color: #000;
+}
+
+.amp-content amp-story-grid-layer {
+  padding: 0;
+}
+
+.amp-content amp-img {
+  object-fit: cover;
+}
+
+.amp-content .story-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+  color: white;
+}
+
+.amp-content .story-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+  color: white;
+}
+
+.amp-content h1,
+.amp-content h2 {
+  margin: 0;
+  font-size: 2rem;
+  line-height: 1.2;
+} 
